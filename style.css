@@ -1,25 +1,25 @@
  body {
       margin: 0;
-    }
-    ul {
-      list-style-type: none;
-      display: inline;
-      background-color: lightgreen;
-      width: 100%;
-      position: fixed;
-      left: 0;
-      right: 0;
-      text-align: center;
-      padding: 0;
-    }
+ }
+ ul {
+   list-style-type: none;
+   display: inline;
+   background-color: lightgreen;
+   width: 100%;
+   position: fixed;
+   left: 0;
+   right: 0;
+   text-align: center;
+   padding: 0;
+ }
 
-    li{
-      float: left;
-    }
+ li{
+   float: left;
+ }
 
-    li a{
-      display: inline;
-      padding: 100px;
-      color: brown;
-      text-align center;
-    }
+ li a{
+   display: inline;
+   padding: 100px;
+   color: brown;
+   text-align center;
+ }
