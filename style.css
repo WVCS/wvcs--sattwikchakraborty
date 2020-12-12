@@ -1,26 +1,22 @@
- body {
-  margin: 0;
-  background-color: limegreen
- }
- ul {
-   list-style-type: none;
-   display: inline;
-   background-color: lightgreen;
-   width: 100%;
-   position: fixed;
-   left: 0;
-   right: 0;
-   text-align: center;
-   padding: 0;
- }
-
- li{
-   float: left;
- }
-
- li a{
-   display: inline;
-   padding: 100px;
-   color: brown;
-   text-align center;
- }
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  background-color: limegreen;
+  width: 100%;
+  padding: 25px 0;
+  z-index: 10;
+}
+li {
+  display: inline;
+  padding: 125px;
+}
+li a{
+  color: brown;
+  display: inline;
+}
+div.navbar {
+  width: 70%;
+  left: 15%;
+  position: absolute;
+}
